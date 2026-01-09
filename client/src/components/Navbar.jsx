@@ -16,7 +16,7 @@ const Navbar = () => {
         <span className="font-bold" 
         style={{fontSize:30}}>
             BlogSphere
-        </span>
+        </span> 
       </div>
 
    <button onClick={()=>navigate('/admin')} className="flex items-center gap-2 rounded-full cursor-pointer bg-purple-600 text-white px-10 py-3.5">

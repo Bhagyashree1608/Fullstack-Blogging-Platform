@@ -16,6 +16,11 @@ const Header = () => {
             Create, publish, and inspire — it’s your creative corner. From quick thoughts to
   deep stories, express yourself without limits.</p>
 
+       <form className='flex justify-between max-w-lg max-sm:scale-75 mx-auto border border-gray-300 bg-white rounded overflow-hidden'>
+        <input type='text' placeholder="Search for Blogs" required className='w-full pl-4 outline-none'/> 
+        <button type='submit' className='bg-primary text-white px-8 py-2 m-1.5 rounded hover:scale-105 transition-all cursor-pointer'> Search</button>
+       </form>
+
         </div>
         <img 
           src={assets.gb} 

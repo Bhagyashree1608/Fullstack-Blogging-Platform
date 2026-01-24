@@ -1,4 +1,4 @@
-QuickBlog is a **modern full‑stack blogging platform** built using the **MERN stack principles** (React + Node.js + Express + MongoDB). It provides a clean, user‑friendly interface for readers and a powerful admin dashboard for managing blogs and comments.
+BlogSphere is a **modern full‑stack blogging platform** built using the **MERN stack principles**. It provides a clean, user‑friendly interface for readers and a powerful admin dashboard for managing blogs and comments.
 
 This project demonstrates **real‑world full‑stack development**, including authentication, CRUD operations, cloud integrations, secure environment handling, and responsive UI design.
 

@@ -3,4 +3,4 @@ node_modules
 # Environment variables
 .env
 server/.env
-client/.env
+client/.envgit commit -m "Remove server env file from version control"

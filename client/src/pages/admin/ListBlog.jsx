@@ -31,10 +31,10 @@ const ListBlog = () => {
 
   return (
     <div className='flex-1 pt-5 px-5 sm:pt-16 bg-blue-50/50'>
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl ml-4 px-4">
           <h1 className="text-2xl font-semibold text-gray-800 mb-4">All blogs</h1>
         </div>
-      <div className="relative mt-4  max-w-4xl mx-auto shadow rounded-lg bg-white scrollbar-hide">
+      <div className="relative mt-4  max-w-4xl ml-4 shadow rounded-lg bg-white">
          <table className="w-full text-sm text-gray-500">
           <thead className='text-xs text-gray-600 text-left uppercase'>
           <tr>

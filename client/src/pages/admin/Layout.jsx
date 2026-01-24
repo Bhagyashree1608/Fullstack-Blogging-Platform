@@ -19,7 +19,7 @@ const Layout = () => {
     
     <div className='flex items-center justify-between py-2 h-[70px] px-4 sm:px-12 border-b border-gray-200'>
       <div className="flex items-center gap-2"> 
-      <i className="fa-brands fa-blogger cursor-pointer"
+      <i className="fa-brands fa-blogger cursor-pointer hover:scale-110 transition-transform"
       style={{ color: "#9333ea",fontSize:50 }} 
       onClick={()=>navigate('/')}></i>
         <span className="font-bold" 

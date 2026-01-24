@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 import Comment from '../models/Comments.js';
-import Blog from '../models/blog.js';
+import Blog from '../models/Blog.js';
 
 
 

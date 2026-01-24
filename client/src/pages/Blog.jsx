@@ -116,9 +116,15 @@ function Blog() {
    <div className='my-24 max-w-3xl mx-auto'>
      <p className='font-semibold my-4'>Share this article on social media</p>
      <div className='flex'>
-        <i className="fa-brands fa-facebook" style={{ color: '#493df5ff', fontSize: 40 ,padding:10,background:'white',borderRadius:'50%',margin:5,width: 60,height: 60}}></i>
-        <i className="fa-brands fa-twitter" style={{ color: '#493df5ff', fontSize: 40,padding:10 ,background:'white',borderRadius:'50%',margin:5,width: 60,height: 60}}></i>
-        <i className="fa-brands fa-google-plus" style={{ color: '#493df5ff', fontSize: 40, padding:10,background:'white' ,borderRadius:'50%', margin:5,width: 60,height: 60}}></i>
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+         <i className="fa-brands fa-facebook" style={{ color: '#493df5ff', fontSize: 40 ,padding:10,background:'white',borderRadius:'50%',margin:5,width: 60,height: 60}}></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+         <i className="fa-brands fa-twitter" style={{ color: '#493df5ff', fontSize: 40,padding:10 ,background:'white',borderRadius:'50%',margin:5,width: 60,height: 60}}></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform">
+         <i className="fa-brands fa-linkedin" style={{ color: '#493df5ff', fontSize: 40, padding:10,background:'white' ,borderRadius:'50%', margin:5,width: 60,height: 60}}></i>
+        </a>
      </div>
    </div>
 </div>

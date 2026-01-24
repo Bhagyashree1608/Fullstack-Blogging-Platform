@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <div className="flex items-center gap-2">
         
-      <i className="fa-brands fa-blogger cursor-pointer"
+      <i className="fa-brands fa-blogger cursor-pointer hover:scale-110 transition-transform"
       style={{ color: "#9333ea",fontSize:50 }} 
       onClick={()=>navigate('/')}></i>
         <span className="font-bold" 

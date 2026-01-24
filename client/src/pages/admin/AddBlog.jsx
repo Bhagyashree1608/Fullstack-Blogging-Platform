@@ -6,6 +6,7 @@ import toast from 'react-hot-toast';
 import {parse} from 'marked'
 
 
+
 const AddBlog = () => {
 
   const {axios} = useAppContext()
@@ -16,6 +17,7 @@ const AddBlog = () => {
   const quillRef = useRef(null);
   const [image,setImage] =useState(false);
   const [title,setTitle] =useState('');
+  const [author,setAuthor] =useState('');
   const [subTitle,setSubTitle] =useState('');
   const [category,setCategory] =useState(false);
   const [isPublished,setIsPublished] =useState(false);
@@ -45,7 +47,7 @@ const AddBlog = () => {
        setIsAdding(true)
 
        const blog = {
-        title,subTitle,
+        title,subTitle,author,
         description: quillRef.current.root.innerHTML,
         category,isPublished 
        }
@@ -60,6 +62,7 @@ const AddBlog = () => {
           toast.success(data.message);
           setImage(false)
           setTitle('')
+          setAuthor('')
           quillRef.current.root.innerHTML = ''
           setCategory('Startup')
        }else{
@@ -97,6 +100,11 @@ const AddBlog = () => {
         <p className='mt-4'>Sub Title</p>
         <input type='text' placeholder='Type here' required className='w-full max-w-lg mt-2 p-2 border border-gray-300 outline-none rounded' 
         onChange={e => setSubTitle(e.target.value)} value={subTitle}/>
+
+        <p className='mt-4'>Author</p>
+        <input type='text' placeholder='Author Name' required className='w-full max-w-lg mt-2 p-2 border border-gray-300 outline-none rounded' 
+        onChange={e => setAuthor(e.target.value)} value={author}/>
+        
 
         <p className='mt-4'>Blog Description</p>
         <div className='max-w-lg h-74 pb-16 sm:pb-10 pt-2 relative'>

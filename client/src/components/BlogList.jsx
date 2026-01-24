@@ -19,7 +19,7 @@ const BlogList = () => {
 
   return (
     <div>
-      <div className='flex justify-center gap-10 sm:gap-8 my-10 relative'>
+      <div className='flex justify-center gap-10 sm:gap-8 my-5 relative'>
       {blogCategories.map((item)=>(
         <div key={item} className='relative'>
             <button  onClick={()=>setMenu(item)} 
